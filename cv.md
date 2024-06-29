@@ -31,6 +31,6 @@ int main(void)
 * CS50
 * Excell for beginners
 ## Languages
-Russian, Belarusian - Native speaker
-Polish, German - A1
-English - A2
+* Russian, Belarusian - Native speaker
+* Polish, German - A1
+* English - A2
