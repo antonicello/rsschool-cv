@@ -23,3 +23,10 @@ int main(void)
     }
 }
 ```
+###### Education
+**University**
+* Belarusian State Academy of Music
+
+**Courses:**
+* CS50
+* Excell for beginners
