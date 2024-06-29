@@ -30,3 +30,7 @@ int main(void)
 **Courses:**
 * CS50
 * Excell for beginners
+## Languages
+Russian, Belarusian - Native speaker
+Polish, German - A1
+English - A2
