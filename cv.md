@@ -7,3 +7,8 @@
 * **Telegram:** @antonicello93
 ### About me
 Not long ago I discovered the world of IT and high technology and immediately became very interested and realized that I had the right abilities. I really like to understand something for a long time and try to immerse myself in the topic of research until the end. My goal is to find myself in this profession of Frontend Developer.
+#### Skills
+* **technical skills:** Git and Github, Javascript, C, Microsoft Excel, VScode.
+* **soft skills** Communication: Ability to communicate effectively and work as part of a team.
+Learning Ability: Willingness to learn and develop new skills.
+Problem Solving: Ability to analyze problems and find solutions
