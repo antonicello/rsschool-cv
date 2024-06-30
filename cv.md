@@ -13,7 +13,8 @@ Not long ago I discovered the world of IT and high technology and immediately be
 Learning Ability: Willingness to learn and develop new skills.
 Problem Solving: Ability to analyze problems and find solutions
 ## Code Example
-```#include <stdio.h>
+```
+#include <stdio.h>
 
 int main(void)
 {
