@@ -1,48 +1,33 @@
+
 .nav-list {
-    list-style: none;
+    text-decoration:dashed;
     padding: 20px;
     line-height: 50px;
-    font-size: 15px;
+    font-size: 20px;
     background-color:rgb(246, 240, 252);
     width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
   } 
-body {
-    color:rgb(55, 82, 82);
-}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-.nav-list {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-.headline {
-    font-size: 60px;
-    color: #721111;
-}
-.left {
-    text-align: left;
-}
-.right {
-    text-align: right;
-}
-.big {
-    font-size: 60px;
-}
-.box {
-    position: relative;
-   top:50%;
-   left:50%;
-   transform:translate(-50%,-50%);
-   width:300px;
-   height:300px;
-   object-fit:cover;
-   padding: 20px ;
+.photo-cv {
+
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 150px;
+   position: relative;
+   right: auto
+
  }
   .section {
-    width: 100%;
+    width: 70%;
+    margin: auto;
   }
 .foot-part {
     list-style: none;
@@ -55,4 +40,15 @@ body {
 .logo {
     width: 100px;
     height: 50px;
+}
+.foot-year {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 50px;
+}
+.foot-gitlink {
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 40px;
 }
