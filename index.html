@@ -9,11 +9,18 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="/">About me</a></li>
-                <li><a href="/">Skills</a></li>
-                <li><a href="/">Education</a></li>
-                <li><a href="/">Contacts</a></li>
+            <ul class="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <pre>  </pre>
+                <li><a href="#skills">Skills</a></li>
+                <pre>  </pre>
+                <li><a href="#education">Education</a></li>
+                <pre>  </pre>
+                <li><a href="#contacts">Contacts</a></li>
+                <pre>  </pre>
+                <li><a href="#languages">Languages</a></li>
+                <pre>  </pre>
+                <li><a href="#code-example">Code Example</a></li>
             </ul>
         </nav>
 
@@ -21,12 +28,13 @@
     </header>
     <main>
        <section>
-         <h1 class="headline">Anton Silich</h1>
+         <h1>Anton Silich</h1>
          <h3>student RS-SCHOOL Frontend Developer</h3>
+         <img src="C:\Users\Admin\Documents\rs_school\rsschool-cv\assets\img\cv_foto.jpg" alt="photo-cv">
        </section>
-       <br>
+       <hr>
        <section>
-            <h2>Contacts</h2>
+            <h2 id="contacts" >Contacts</h2>
             <ul>
                 <li><b>Location: </b> Lodz, Poland</li>
                 <li><b>email:</b> antonicello93@gmail.com</li>
@@ -34,24 +42,51 @@
                 <li><b>Telegram: </b>@antonicello93</li>
             </ul>
        </section>
+       <hr>
        <section>
-            <h2>About me</h2>
-            <p>Not long ago I discovered the world of IT and high technology and immediately became very interested and realized that I had the right abilities.
+            <h2 id="about-me">About me</h2>
+            <p class="container">Not long ago I discovered the world of IT and high technology and immediately became very interested and realized that I had the right abilities.
                  I really like to understand something for a long time and try to immerse myself in the topic of research until the end.
                   My goal is to find myself in this profession of Frontend Developer.</p>
        </section>
+       <hr>
        <section>
-            <h2>Skills</h2>
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li><b>technical skills:</b> Git and Github, Javascript, C, Microsoft Excel, VScode.</li>
+                <li><b>soft skills Communication:</b> Ability to communicate effectively and work as part of a team.
+                 Learning Ability: Willingness to learn and develop new skills. Problem Solving: Ability to analyze problems and find solutions</li>
+            </ul>
        </section>
+       <hr>
        <section>
-            <h2>Code Example</h2>
-            <code></code>
+            <h2 id="code-example">Code Example</h2>
+            <code>
+                #include <stdio.h>
+
+                    int main(void)
+                    {
+                        for (int i = 0; i < 50; i++)
+                        {
+                        printf("%i\n", i);
+                        }
+                    }
+            </code>
        </section>
+       <hr>
        <section>
-            <h2>Education</h2>
+            <h2 id="education">Education</h2>
+            <p><b>University:</b> Belarusian State Academy of Music</p>
+            <p><b>Courses:</b> CS50, Excell for beginners</p>
        </section>
+       <hr>
        <section>
-            <h2>Languages</h2>
+            <h2 id="languages">Languages</h2>
+            <ul>
+                <il>Russian, Belarusian - Native speaker</il>
+                <il>Polish, German - A1</il>
+                <il>English - A2</il>
+            </ul>
        </section>
 
     </main>
