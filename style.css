@@ -1,9 +1,10 @@
 .nav-list {
     list-style: none;
-    padding: 200px;
+    padding: 20px;
     line-height: 50px;
     font-size: 15px;
     background-color:rgb(246, 240, 252);
+    width: 100%;
   } 
 body {
     color:rgb(55, 82, 82);
@@ -38,7 +39,20 @@ body {
    width:300px;
    height:300px;
    object-fit:cover;
+   padding: 20px ;
  }
-.back {
-    background-color:rgb(147, 79, 210);
+  .section {
+    width: 100%;
+  }
+.foot-part {
+    list-style: none;
+    padding: 20px;
+    line-height: 50px;
+    font-size: 15px;
+    background-color:rgb(246, 240, 252);
+    width: 100%;
+}
+.logo {
+    width: 100px;
+    height: 50px;
 }
