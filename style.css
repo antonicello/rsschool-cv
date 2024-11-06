@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+/* header styles start*/
+.header {
+    background: rgb(246, 246, 246);
+    margin-bottom: 50px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.header__logo-pic {
+    width: 100px;
+}
+.header__nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.header__nav-item {
+    margin-right: 80px;
+    text-decoration: none;
+}
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+.header__nav-link {
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color:rgb(27, 27, 27)
+}
+.header__nav-link:hover, .header__nav-link:active, .header__nav-link:focus {
+    opacity: 75%;
+}
+
+/* header styles end*/
+
+/* intro styles start*/
+    .intro {
+        margin-bottom: 40px;
+    }
+    .intro-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .intro__main {
+        max-width: 500px;
+    }
+    .intro__img {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid  rgb(203, 203, 203)
+    }
+    .intro__title {
+        font-size: 34px;
+        line-height: 40px;
+        border-bottom: 2px solid rgb(203, 203, 203) ;
+        text-align: center;
+        padding: 16px;
+        margin-bottom: 0;
+    }
+    .intro__about-me {
+        max-width: 700px;
+        padding: 30px;
+    }
+    .intro__abot-me-title {
+        font-size: 20px;
+        line-height: 24px;
+        text-align:  top;
+    }
+/* intro styles end*/
+
+/* skills styles start*/
+
+/* skills styles end*/
